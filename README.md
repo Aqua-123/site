@@ -1,9 +1,5 @@
 # Wisnu's Homepage
 
-## Preview
-
-![Preview 1](./static/preview-1.png)
-
 ## Stack
 
 - [Svelte Kit](https://svelte.dev/) - The fastest way to build Svelte apps.
