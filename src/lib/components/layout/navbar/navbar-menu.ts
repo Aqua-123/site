@@ -18,5 +18,10 @@ export const navbarMenu = [
 		title: 'guest-book',
 		href: '/guest-book',
 		key: 'g'
+	},
+	{
+		title: 'contact',
+		href: 'https://calendly.com/manasvi-kapoor-futurixai/discussion',
+		key: 'c'
 	}
 ] as const;

@@ -4,7 +4,7 @@
 
 <Metadata
 	title="Manasvi"
-	description="Get to know me, Manasvi, through this website! I'm a passionate full stack developer and electronics student, specializing in building scalable and robust applications. My tech stack includes NextJS, Tailwind, GoLang, Postgres, Prisma, and Firebase. Explore my interactive projects and portfolio showcasing my technical expertise. If you're seeking a talented developer for your next project, feel free to get in touch!"
+	description="Get to know me, Manasvi, through this website! I'm a passionate full stack developer specializing in building scalable and robust applications. My tech stack includes NextJS, Tailwind, GoLang, Postgres, Prisma, and Firebase. Explore my interactive projects and portfolio showcasing my technical expertise. If you're seeking a talented developer for your next project, feel free to get in touch!"
 />
 
 <section class="flex flex-grow flex-col items-center justify-center space-y-2.5 md:space-y-5">
@@ -22,7 +22,7 @@ ___  ___                            _
 	<p class="sr-only">Manasvi</p>
 
 	<div class="text-center">
-		<p>Full stack developer and electronics student</p>
+		<p>Full stack developer</p>
 		<p>I love building full stack applications that are scalable and robust
 			<br />I love fun challenges :)</p>
 	</div>
