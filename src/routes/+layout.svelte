@@ -5,9 +5,8 @@
 	import { dev } from '$app/environment';
 	import Header from '$lib/components/layout/header/header.svelte';
 	import Navbar from '$lib/components/layout/navbar/navbar.svelte';
-	import { dev } from '$app/environment';
 	import { injectAnalytics } from '@vercel/analytics/sveltekit';
- 
+
 	injectAnalytics({ mode: dev ? 'development' : 'production' });
 
 	let { children } = $props();
@@ -61,7 +60,6 @@
 		position = { x: 0, y: 0 };
 	});
 </script>
-
 
 <main
 	bind:this={containerElement}
