@@ -4,7 +4,7 @@
 
 <Metadata
 	title="Manasvi"
-	description="Get to know me, Manasvi, through this website! I'm a passionate full stack developer specializing in building scalable and robust applications. My tech stack includes NextJS, Tailwind, GoLang, Postgres, Prisma, and Firebase. Explore my interactive projects and portfolio showcasing my technical expertise. If you're seeking a talented developer for your next project, feel free to get in touch!"
+	description="Get to know me, Manasvi, through this website! I'm a passionate full stack developer specializing in building scalable and robust applications. My tech stack includes Next.js, Nuxt.js, Svelte, Django, FastAPI, Flask, GoLang, TypeScript, along with databases like PostgreSQL, MongoDB, Redis, Firebase, and Supabase. I have expertise in DevOps with Docker, Kubernetes, AWS, Nginx, and Apache, plus real-time systems using WebSockets, WebRTC, and Kafka. I also work with monitoring tools like Prometheus and Grafana. Explore my interactive projects and portfolio showcasing my technical expertise. If you're seeking a talented developer for your next project, feel free to get in touch!"
 />
 
 <section class="flex flex-grow flex-col items-center justify-center space-y-2.5 md:space-y-5">

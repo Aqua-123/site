@@ -11,6 +11,8 @@ techstack:
   - Docker
   - vLLM
   - Python
+  - AWS
+  - Kubernetes
 ---
 
 Zero Hands represents a fundamental shift in how we approach email communication. In an era where attention has become our most valuable currency, this platform was designed to protect and preserve your cognitive resources by eliminating the chaos of traditional email management and replacing it with intelligent, context-aware communication tools.

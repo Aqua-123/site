@@ -1,17 +1,18 @@
 ---
-title: EmeraldLookup
-description: EmeraldLookup is a comprehensive data analysis tool for EmeraldChat that provides real-time WebSocket monitoring and a powerful REST API for querying chat data. Built with Node.js and MongoDB, it enables developers and researchers to collect, analyze, and retrieve chat statistics, user behavior patterns, and message data through an intuitive API interface.
-poster: /projects/emeraldlookup.webp
+title: EmeraldEye
+description: EmeraldEye is a comprehensive data analysis tool for EmeraldChat that provides real-time WebSocket monitoring and a powerful REST API for querying chat data. Built with Node.js and MongoDB, it enables developers and researchers to collect, analyze, and retrieve chat statistics, user behavior patterns, and message data through an intuitive API interface.
+poster: /projects/emeraldeye.webp
 techstack:
   - Node.js
   - MongoDB
+  - WebSockets
 ---
 
-EmeraldLookup was developed to provide comprehensive data analysis capabilities for EmeraldChat, addressing the need for real-time chat monitoring and historical data analysis. This tool bridges the gap between live chat interaction and data-driven insights, offering both real-time data collection and sophisticated querying capabilities for researchers, developers, and chat administrators.
+EmeraldEye was developed to provide comprehensive data analysis capabilities for EmeraldChat, addressing the need for real-time chat monitoring and historical data analysis. This tool bridges the gap between live chat interaction and data-driven insights, offering both real-time data collection and sophisticated querying capabilities for researchers, developers, and chat administrators.
 
 ## Background
 
-Understanding chat patterns, user behavior, and communication trends in platforms like EmeraldChat requires robust data collection and analysis tools. EmeraldLookup was created to solve this challenge by providing a dual-purpose solution: a WebSocket client that continuously monitors chat activity and a REST API that enables complex queries and statistical analysis of collected data.
+Understanding chat patterns, user behavior, and communication trends in platforms like EmeraldChat requires robust data collection and analysis tools. EmeraldEye was created to solve this challenge by providing a dual-purpose solution: a WebSocket client that continuously monitors chat activity and a REST API that enables complex queries and statistical analysis of collected data.
 
 ### Features
 
@@ -137,7 +138,7 @@ The application provides a streamlined setup process:
 - **Memory Optimization**: Efficient memory usage for long-running data collection processes
 - **API Rate Limiting**: Built-in protection against API abuse and overload
 
-EmeraldLookup represents a comprehensive solution for anyone seeking to understand, analyze, and leverage chat data from EmeraldChat platforms, providing the tools necessary for both real-time monitoring and deep historical analysis.
+EmeraldEye represents a comprehensive solution for anyone seeking to understand, analyze, and leverage chat data from EmeraldChat platforms, providing the tools necessary for both real-time monitoring and deep historical analysis.
 
 ### Stack
 
