@@ -1,7 +1,7 @@
 ---
-title: Google Scraper API
+title: Serper 🏄
 description: A high-performance web scraping and search API service built with Go, providing comprehensive endpoints for various search engines, financial data retrieval, and general web scraping capabilities. Features Redis caching, browser automation with Chromedp, and Python-based scraping utilities for reliable data extraction and analysis.
-poster: /projects/google-scraper-api.webp
+poster: /projects/serper.webp
 techstack:
   - Go
   - Redis
@@ -10,11 +10,11 @@ techstack:
   - REST API
 ---
 
-Google Scraper API is a comprehensive web scraping and search service designed to provide reliable, high-performance data extraction capabilities across multiple search engines and financial platforms. Built with Go for optimal performance and scalability, this API service addresses the growing need for structured data access from various web sources while maintaining reliability and efficiency.
+Serper is a comprehensive web scraping and search service designed to provide reliable, high-performance data extraction capabilities across multiple search engines and financial platforms. Built with Go for optimal performance and scalability, this API service addresses the growing need for structured data access from various web sources while maintaining reliability and efficiency.
 
 ## Background
 
-In today's data-driven world, accessing structured information from search engines, financial platforms, and general web sources is crucial for businesses, researchers, and developers. Traditional web scraping approaches often face challenges with rate limiting, anti-bot measures, and reliability issues. Google Scraper API was developed to provide a robust, scalable solution that handles these challenges while offering a simple REST API interface for easy integration.
+In today's data-driven world, accessing structured information from search engines, financial platforms, and general web sources is crucial for businesses, researchers, and developers. Traditional web scraping approaches often face challenges with rate limiting, anti-bot measures, and reliability issues. Serper was developed to provide a robust, scalable solution that handles these challenges while offering a simple REST API interface for easy integration.
 
 ### Features
 
