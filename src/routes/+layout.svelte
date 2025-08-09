@@ -2,9 +2,37 @@
 	import { MediaQuery } from 'svelte/reactivity';
 
 	import '../app.css';
-	import { dev } from '$app/environment';
 	import Header from '$lib/components/layout/header/header.svelte';
 	import Navbar from '$lib/components/layout/navbar/navbar.svelte';
+	import { dev, browser } from '$app/environment';
+	import { page } from '$app/state';
+	import { injectAnalytics, track } from '@vercel/analytics/sveltekit';
+
+	// Initialize analytics only in the browser with error handling
+	if (browser) {
+		try {
+			injectAnalytics({
+				mode: dev ? 'development' : 'production'
+			});
+			if (dev) {
+				console.log('Vercel Analytics initialized in development mode');
+			}
+		} catch (error) {
+			console.error('Failed to initialize Vercel Analytics:', error);
+		}
+	}
+
+	// Track page views manually
+	$effect(() => {
+		if (browser && page.url) {
+			const url = page.url.pathname + page.url.search;
+			if (dev) {
+				console.log('Tracking page view:', url);
+			}
+			// Manual page view tracking
+			track('Page View', { path: url });
+		}
+	});
 
 	let { children } = $props();
 
@@ -57,7 +85,6 @@
 		position = { x: 0, y: 0 };
 	});
 </script>
-
 
 <main
 	bind:this={containerElement}

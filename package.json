@@ -43,6 +43,7 @@
 	},
 	"dependencies": {
 		"@fontsource/commit-mono": "^5.2.5",
+		"@vercel/analytics": "^1.5.0",
 		"arctic": "^3.7.0",
 		"drizzle-orm": "^0.44.4",
 		"postgres": "^3.4.7",
