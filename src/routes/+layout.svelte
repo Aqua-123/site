@@ -2,12 +2,11 @@
 	import { MediaQuery } from 'svelte/reactivity';
 
 	import '../app.css';
-	import { dev } from '$app/environment';
 	import Header from '$lib/components/layout/header/header.svelte';
 	import Navbar from '$lib/components/layout/navbar/navbar.svelte';
 	import { injectAnalytics } from '@vercel/analytics/sveltekit';
 
-	injectAnalytics({ mode: dev ? 'development' : 'production' });
+	injectAnalytics({ mode: 'production' });
 
 	let { children } = $props();
 
