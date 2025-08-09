@@ -1,6 +1,6 @@
 ---
 title: 'work.ts'
-description: "I'm Manasvi Kapoor, a Full-Stack Developer currently working fulltime at FuturixAI. Based in Delhi, India, I specialize in building scalable applications using Next.js TypeScript and GoLang. With a strong foundation in frontend and backend technologies and a passion for clean, efficient code, I combine Tailwind CSS with modern JavaScript frameworks to create exceptional web experiences. When I'm not architecting software, you can find me exploring Linux (Arch btw), playing video games, or enjoying a good movie!"
+description: "I'm Manasvi Kapoor, a Full-Stack Developer currently working fulltime at FuturixAI. Based in Delhi, India, I specialize in building scalable applications using modern web technologies including Next.js, Nuxt.js, Django, FastAPI, TypeScript and GoLang. With expertise in cloud infrastructure (AWS, Docker, Kubernetes), real-time systems (WebSockets, WebRTC, Kafka), and data storage solutions (PostgreSQL, MongoDB, Redis, Firebase, Supabase), I create robust, high-performance applications. My DevOps experience includes working with Nginx, Apache, and monitoring tools like Prometheus and Grafana. When I'm not architecting software, you can find me exploring Linux (Arch btw), playing video games, or enjoying a good movie!"
 ---
 
 ```ts
@@ -19,20 +19,27 @@ const employers = [
 
 // Top Skills
 const skills = {
-	languages: ['TypeScript', 'Go', 'Java'],
+	languages: ['TypeScript', 'Go', 'Java', 'Python', 'JavaScript'],
 	frameworks: [
 		'React',
 		'Next.js',
-		'Tailwind CSS',
+		'Nuxt.js',
 		'Svelte',
+		'SvelteKit',
+		'Django',
+		'Flask',
+		'FastAPI',
 		'Express.js',
 		'Node.js',
+		'Tailwind CSS',
 		'Laravel' // still learning this...
 	],
-	databases: ['PostgreSQL', 'MongoDB', 'Prisma'],
-	tools: ['Figma', 'GraphQL', 'Rest API', 'TRPC', 'Docker', 'NextAuth', 'Dribbble']
+	databases: ['PostgreSQL', 'MongoDB', 'Redis', 'Prisma', 'Firebase', 'Supabase'],
+	devops: ['Docker', 'Kubernetes', 'AWS', 'Nginx', 'Apache'],
+	messaging: ['Apache Kafka', 'WebSockets', 'WebRTC'],
+	monitoring: ['Prometheus', 'Grafana'],
+	tools: ['Figma', 'GraphQL', 'Rest API', 'TRPC', 'NextAuth', 'Dribbble']
 };
 
 // Fun Facts
 const interests = ['Programming', 'Video Games', 'Music', 'Movies'];
-```

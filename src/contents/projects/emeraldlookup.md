@@ -5,6 +5,7 @@ poster: /projects/emeraldlookup.webp
 techstack:
   - Node.js
   - MongoDB
+  - WebSockets
 ---
 
 EmeraldLookup was developed to provide comprehensive data analysis capabilities for EmeraldChat, addressing the need for real-time chat monitoring and historical data analysis. This tool bridges the gap between live chat interaction and data-driven insights, offering both real-time data collection and sophisticated querying capabilities for researchers, developers, and chat administrators.

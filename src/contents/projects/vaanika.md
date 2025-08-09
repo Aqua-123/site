@@ -9,6 +9,9 @@ techstack:
   - PostgreSQL
   - vLLM
   - Docker
+  - Kubernetes
+  - AWS
+  - Firebase
 ---
 
 Vaanika is a revolutionary audio workspace platform designed to democratize high-quality voice synthesis and dubbing technology. The platform addresses the traditional challenges of voice cloning and audio production by offering an instant, browser-based solution that requires minimal setup and delivers professional results.

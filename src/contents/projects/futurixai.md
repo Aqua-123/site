@@ -5,6 +5,8 @@ poster: /projects/futurixai.webp
 techstack:
   - Next.js
   - Tailwind CSS
+  - AWS
+  - Nginx
 ---
 
 FuturixAI represents the digital face of an innovative artificial intelligence company, designed to showcase the organization's capabilities, services, and vision in the rapidly evolving AI landscape. This landing page serves as the primary touchpoint for potential clients, partners, and stakeholders seeking to understand and engage with FuturixAI's offerings.
